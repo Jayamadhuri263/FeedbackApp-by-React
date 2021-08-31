@@ -1,0 +1,60 @@
+/* Write your CSS code here. */
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 60vh;
+  text-align: center;
+}
+.question-heading {
+  color: #0f172a;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'roboto';
+}
+.question {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+.li-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.emoji {
+  height: 80px;
+  width: 80px;
+}
+.feedback-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  color: #1e293b;
+  font-size: 18px;
+  text-align: center;
+}
